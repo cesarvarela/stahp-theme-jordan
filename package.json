@@ -1,0 +1,25 @@
+{
+  "name": "stahp-theme-jordan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "grommet": "^2.17.3",
+    "react": "^16.6.1 || ^17.0.0",
+    "react-dom": "^16.6.1 || ^17.0.0",
+    "react-is": ">= 16.8.0",
+    "regenerator-runtime": "^0.13.9",
+    "styled-components": ">= 5.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "rimraf": "^3.0.2"
+  },
+  "scripts": {
+    "start": "parcel src/long.html",
+    "prebuild": "rimraf dist",
+    "build": "parcel build src/long.html --public-url ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
